@@ -42,7 +42,11 @@ color: var(--logo-color);
 .logo:hover,
 .logo:focus{
     color: var(--accent-color);
-    ;
+}
+
+.logostudio:hover,
+.logostudio:focus{
+    color: var(--accent-color);
 }
 
 .logostudio {
