@@ -31,12 +31,12 @@ color: var(--body-text-color);
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--secondary-text-color);
+color: var(--logo-color);
 }
 
 .logo:hover,
@@ -45,8 +45,8 @@ color: var(--secondary-text-color);
     ;
 }
 
-.logoweb {
-    color: var(--logo-color);
+.logostudio {
+    color: var(--body-text-color);
 }
 
 .nav-link{
@@ -60,6 +60,7 @@ color: var(--accent-color);
 }
 
 .contacts {
+font-style: normal;
 color: var(--body-text-color);
 }
 
