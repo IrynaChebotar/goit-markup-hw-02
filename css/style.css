@@ -152,11 +152,16 @@ color: var(--accent-color);
     background-color: var(--secondary-background-color);
 }
 
+.team-list {
+    color: var(--primary-white-color);
+}
+
 .team-title{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--secondary-text-color);    
 }
@@ -180,6 +185,12 @@ color: var(--secondary-text-color);
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--logo-color);
 }
 
