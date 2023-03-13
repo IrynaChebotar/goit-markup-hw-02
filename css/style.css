@@ -1,11 +1,4 @@
-body {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--body-text-color);
-}
+
 
 :root {
     --logo-color:#4D5AE5;
@@ -17,6 +10,15 @@ color: var(--body-text-color);
     --footer-background-color: #2E2F42;
     --footer-text-color: #E7E9FC;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+    }
 
 .list {
     list-style: none;
@@ -41,12 +43,12 @@ color: var(--logo-color);
 
 .logo:hover,
 .logo:focus{
-    color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 
 .logostudio:hover,
 .logostudio:focus{
-    color: var(--accent-color);
+    color: #2e2f42 ;
 }
 
 .logostudio {
@@ -61,6 +63,10 @@ color: var(--secondary-text-color);
 .nav-link:focus {
 color: var(--accent-color);
 ;
+}
+
+.adress {
+    font-style: normal
 }
 
 .contacts {
@@ -106,17 +112,20 @@ background-color: var(--logo-color);
 
 .hero-btn:hover,
 .hero-btn:focus {
-background-color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /* ============================== /HERO ======================== */
 
 /*============================= FEATURES =================================*/
 
+
+
 .features-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 
@@ -132,6 +141,8 @@ background-color: var(--accent-color);
     text-transform: capitalize;
     color: var(--secondary-text-color);
 }
+
+.faetures-description 
 
 /* ============================ /WHAT ARE WE DOING ========================== */
 
