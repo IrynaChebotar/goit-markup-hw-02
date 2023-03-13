@@ -85,6 +85,7 @@ color: var(--body-text-color);
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;
 color: var(--primary-white-color);
 }
@@ -93,6 +94,10 @@ color: var(--primary-white-color);
 font-weight: 500;
 display: flex;
 align-items: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+
 letter-spacing: 0.04em;
 cursor: pointer;
 color: var(--primary-white-color);
@@ -100,7 +105,7 @@ background-color: var(--logo-color);
 }
 
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
 background-color: var(--accent-color);
 }
 
