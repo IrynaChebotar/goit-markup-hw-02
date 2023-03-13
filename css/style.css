@@ -169,9 +169,22 @@ color: var(--secondary-text-color);
 }
 
 .footer-logo {
+    color: var(--logo-color);
+}
+
+.footer-logostudio {
     color: var(--secondary-background-color);
 }
 
+.footer-logostudio:hover, 
+.footer-logostudio:focus {
+    color: var(--accent-color)
+}
+
+.footer-logo:hover, 
+.footer-logo:focus {
+    color: var(--accent-color)
+}
 /*================================ /FOOTER ===============================*/
 
 /*============================== PORTFOLIO ===============================*/
