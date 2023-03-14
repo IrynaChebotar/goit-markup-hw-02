@@ -7,7 +7,6 @@
     --secondary-text-color:#2E2F42;
     --primary-white-color: #FFFFFF;
     --secondary-background-color: #F4F4FD;
-    --footer-background-color: #2E2F42;
     --footer-text-color: #E7E9FC;
 }
 
@@ -34,6 +33,7 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
+font-style: normal;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -48,11 +48,7 @@ color: var(--logo-color);
 
 .logostudio:hover,
 .logostudio:focus{
-    color: #2e2f42 ;
-}
-
-.logostudio {
-    color: var(--body-text-color);
+    color: var(--secondary-text-color) ;
 }
 
 .nav-link{
@@ -177,7 +173,7 @@ color: var(--secondary-text-color);
 /*================================ FOOTER ===============================*/
 
 .footer {
-    background-color: var(--footer-background-color);
+    background-color: var(--secondary-text-color);
 }
 
 .footer-description {
