@@ -148,7 +148,7 @@ background-color: var(--secondary-background-color);
 }
 
 .team-list-item {
-color: var(--primary-white-color);
+background-color: var(--primary-white-color);
 }
 
 .team-title{
