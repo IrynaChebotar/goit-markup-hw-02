@@ -27,13 +27,16 @@ body {
     text-decoration: none;
 }
 /* ============================== HEADER ======================== */
-.logo {
 
+.header {
+font-style: normal;
+}
+
+.logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-font-style: normal;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -43,7 +46,7 @@ color: var(--logo-color);
 
 .logo:hover,
 .logo:focus{
-    color: var(--secondary-text-color);
+    color: var(--logo-color);
 }
 
 .logostudio:hover,
