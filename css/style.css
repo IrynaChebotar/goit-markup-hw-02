@@ -45,13 +45,11 @@ text-transform: uppercase;
 color: var(--logo-color);
 }
 
-.logo:hover,
-.logo:focus{
+.logo{
     color: var(--logo-color);
 }
 
-.logostudio:hover,
-.logostudio:focus{
+.logostudio{
     color: var(--secondary-text-color) ;
 }
 
