@@ -150,7 +150,7 @@ color: var(--accent-color);
     background-color: var(--secondary-background-color);
 }
 
-.team-list {
+.team-list-item {
     color: var(--primary-white-color);
 }
 
