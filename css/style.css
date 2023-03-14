@@ -169,7 +169,12 @@ color: var(--secondary-text-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--secondary-text-color);
+}
+
+.team-position {
+color: var(--body-text-color);
 }
 /*================================ /OUR TEAM ===============================*/
 
